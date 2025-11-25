@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribus Açai - O Melhor Açaí da Cidade</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        
+        #Fotodestaque {
+            max-width: 100px;
+            height: auto;
+            border-radius: 50%; 
+            margin-left: 20px;
+            transition: opacity 0.3s; 
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Tribus Açai</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#cardapio" id="btnCardapio">Cardápio</a></li>
+                <li><a href="#lojas">Lojas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <img id="Fotodestaque" alt="file:///C:/Users/rocha/OneDrive/Imagens/tribus_acai_logo_transparente.png"Açaí produto em destaque>
+    </header>
+
+    <section id="inicio" class="hero">
+        <input id="nomeUsuario" placeholder="Digite seu Nome">
+        <p id="mensagem"></p>
+        <h2>A Melhor Experiência de Açaí</h2>
+        <p>Açaí natural, cremoso e com os melhores acompanhamentos.</p>
+        <a href="#cardapio" class="btn-cardapio">Ver Cardápio</a>
+    </section>
+
+    <section id="cardapio" class="cardapio">
+        <h2>Nosso Cardápio Delicioso</h2>
+
+        <div class="item-cardapio">
+            <h3>Açaí Tradicional</h3>
+            <p>Açaí puro na tigela, escolha o tamanho.</p>
+            <ul>
+                <li>P (300ml) 3 Complementos - R$ 11,99</li>
+                <li>M (500ml) 5 Complementos - R$ 17,99</li>
+                <li>G (700ml) 7 Complementos - R$ 24,99</li>
+            </ul>
+        </div>
+       
+
+
+        <div class="item-cardapio">
+            <h3>Nossa Historia:</h3>
+            <p>Descubra o sabor autêntico do Brasil com o Tribus Açai! Da inspiração nas riquezas naturais do Brasil até a fundação do Açaí Artesanal, uma trajetória marcada pela paixão em levar um produto genuíno e de qualidade para todos. Um sonho nascido da admiração pela natureza e pelo desejo de compartilhar um pouco do sabor brasileiro com o mundo.</p> 
+        </div>
+              <img src="https://lh3.googleusercontent.com/p/AF1QipPHumxN07zNae7j3KpOV0sFEWGQvT1CCqBuORnG=s680-w680-h510-rw" 
+     alt="Cardapio">
+
+        <div class="item-cardapio">
+            <h3>Taças Especiais</h3>
+            
+            <h4>Taça Tropical</h4>
+            <p>Açaí com manga, abacaxi, coco ralado e mel - 1 extra de sua escolha.</p>
+            <p class="preco">R$ 21,99</p>
+
+            <h4>Taça Especial</h4>
+            <p>Açaí, Nutella, Leite Ninho, Banana - 1 extra de sua escolha.</p>
+            <p class="preco">R$ 24,99</p>
+
+            <h4>Taça Fitness</h4>
+            <p>Açaí com whey protein, chia, granola e frutas vermelhas - 1 extra de sua escolha. </p>
+            <p class="preco">R$ 24,99</p>
+            
+            <h3>Barcas Exclusivas</h3>
+
+            <h4>Barca Tribus Mix</h4>
+            <p>Açaí com 5 frutas (banana, morango, kiwi, manga e abacaxi), granola, mel, leite condensado e paçoca. - 3 extras de sua escolha. </p>
+            <p class="preco">R$ 32,99</p>
+
+            <h4>Barca dos Deuses</h4>
+            <p>Açaí, creme de ninho, Nutella, paçoca, Ovomaltine, leite em pó e morango. - 4 extras de sua escolha. </p>
+            <p class="preco">R$ 36,99</p>
+
+            <h4>Barca Tribus Família (1L)</h4>
+            <p> Monte sua barca ideal para compartilhar! Açaí com todos os toppings: frutas, doces, cremes e coberturas à escolha.</p>
+            <p class="preco">R$ 49,99</p>
+        </div>
+        
+        <div class="item-cardapio">
+            <h3>Complementos</h3>
+            <p>Escolha alguns de nossos Complementos para melhor opção do seu açai.</p>
+            <ul>
+                <li>Banana, Morango, Uva, Manga, Abacaxi, Uva-passa</li>
+                <li>Leite condensado, Mel, Calda de chocolate, Calda de morango, Calda de frutas vermelhas, Calda de caramelo, Calda de maracujá</li>
+                <li>Cobertura de Nutella, Paçoca, Leite Ninho em pó, M&M’s, Choco Power Ball, Ovomaltine, Bis picado</li>
+                <li>Granola, Farinha láctea, Whey protein, Pasta de amendoim, Creme de Oreo, Coco ralado, Aveia em flocos, Amendoim triturado, Flocos de arroz</li>
+            </ul>
+            <p class="preco">A partir de R$ 3,00</p>
+        </div>
+     
+
+    </section>
+
+    <section id="lojas" class="lojas">
+        <h2>Onde Estamos</h2>
+        
+        <div class="unidade">
+            <h3>Unidade Guara</h3>
+            <p>Q Qi 33, Bloco A, Loja,16 - Guara li</p>
+            <p>Todos os dias: 14:15h às 22:45h</p>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <p>&copy; 2025 Tribus Açai. Todos os direitos reservados.</p>
+        <p>Contato: (61) 3022-2207 | TribusAçai@gmail.com.br</p>
+
+        <section class="localizacao">
+        <h2>Onde Estamos</h2>
+       
+<iframe
+  src="https://www.google.com/maps?q=Tribus+A%C3%A7ai+QI+33+Bloco+A+Loja+16+Guar%C3%A1+II+Bras%C3%ADlia+DF+71065-330&output=embed"
+  width="600"
+  height="450"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+    </section>
+        </footer>
+
+        <a 
+ <img src="https://w7.pngwing.com/pngs/278/793/png-transparent-whatsapp-social-icons-rectangular-black-icon.png" 
+     alt="Instagram"
+     width="30"
+  target="_blank" 
+  class="btn-whatsapp">
+  Fale Conosco no WhatsApp
+</a>
+<script>
+    
+
+    
+    const botaoCardapio = document.querySelector('#btnCardapio'); 
+    const titulo = document.querySelector('h1');
+
+    botaoCardapio.onclick = function(){
+        titulo.innerHTML = "Cardápio Aberto";
+        titulo.style.color = "var(--cor-acai)"; 
+    }
+
+    
+    const campo = document.querySelector('#nomeUsuario');
+    const mensagem = document.querySelector('#mensagem'); 
+
+    campo.oninput = function(){ 
+        mensagem.innerHTML = "Seja bem-vindo, " + campo.value + "!";
+    }
+
+   
+    const ImagemDestaque = document.querySelector('#Fotodestaque'); 
+
+    
+    ImagemDestaque.onmouseover = function(){
+        ImagemDestaque.style.opacity = "0.6"; 
+    }
+    
+    ImagemDestaque.onmouseout = function(){
+        ImagemDestaque.style.opacity = "1"; 
+    }
+
+</script>
+
+</body>
+
+</html>

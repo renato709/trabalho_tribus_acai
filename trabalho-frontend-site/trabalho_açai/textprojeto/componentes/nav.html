@@ -1,0 +1,19 @@
+//no nav fica a parte de menu navegaçao//
+
+<nav class="menu">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#cardapio" id="btnCardapio">Cardápio</a></li>
+                <li><a href="#lojas">Lojas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div id="header-container"></div>
+<div id="footer-container"></div>
+
+<script src="js/componentes.js"></script>
+<script>
+  carregarComponente('componentes/header.html', '#header-container');
+  carregarComponente('componentes/footer.html', '#footer-container');
+</script>

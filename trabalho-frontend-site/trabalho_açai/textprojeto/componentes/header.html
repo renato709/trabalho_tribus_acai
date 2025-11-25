@@ -1,0 +1,27 @@
+//nessa parte do codigo fica o menu superior do site junto com a logo//
+
+
+<header>
+        <div class="logo">
+            <h1>Tribus Açai</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#cardapio" id="btnCardapio">Cardápio</a></li>
+                <li><a href="#lojas">Lojas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <img id="Fotodestaque" src="file:///C:/Users/rocha/OneDrive/Imagens/tribus_acai_logo_transparente.png"Açaí produto em destaque">
+    </header>
+
+<div id="header-container"></div>
+<div id="footer-container"></div>
+
+<script src="js/componentes.js"></script>
+<script>
+  carregarComponente('componentes/header.html', '#header-container');
+  carregarComponente('componentes/footer.html', '#footer-container');
+  carregarComponente('componentes/nav.html', '#nav-container');
+</script>
